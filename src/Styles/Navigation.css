@@ -1,0 +1,61 @@
+.nav {
+    background-color: rgb(242, 247, 247);
+}
+
+ul {
+    padding: 1%;
+}
+
+.li {
+    display: inline;
+    margin: 1%;
+}
+
+
+.li,
+a {
+    color: rgb(123, 172, 180);
+    text-underline-offset: 4px;
+}
+
+a:hover {
+    color: rgb(123, 172, 180);
+    text-underline-offset: 8px;
+    z-index: 10px;
+}
+
+:target {
+    /* content: '';
+    position: absolute; 
+    color: blueviolet;
+    top: 1500;
+    width: 50px;
+    height: 5px;
+    background-color: red;*/
+    border: 2px solid #be0e0e;
+    background-color: #aee90a;
+}
+
+
+/* .logo {} */
+
+span,
+.titleLogo {
+    position: absolute;
+
+}
+
+.image {
+    width: 200px;
+    margin: auto;
+    height: 70px;
+    background: url('/public/light.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid rgb(123, 172, 180);
+    border-radius: 50px;
+    font-size: larger;
+    color: aliceblue;
+    text-align: center;
+
+}

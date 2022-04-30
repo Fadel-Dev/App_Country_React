@@ -1,0 +1,46 @@
+.flag {
+    width: 100px;
+    height: 90px;
+}
+
+h1,
+h2,
+h3 {
+    font-size: 10px;
+}
+
+
+.card {
+    display: inline-flex;
+}
+
+.continent {}
+
+/* .name {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    background-color: red;
+} */
+
+/*
+.flag {
+    max-width: 110px;
+    max-height: 90px;
+}
+
+.flag:hover {
+    max-width: 220px;
+    max-height: 100px;
+}
+
+ul {
+    padding: 1%;
+}
+
+li {
+    display: inline;
+    margin: 1%;
+}
+
+*/
