@@ -38,7 +38,7 @@ const Countries = () => {
                 )
             }
 
-            <ul>
+            <ul className='ul'>
                 {
                     data
                         .filter((country) => country.region.includes(myContinent))
